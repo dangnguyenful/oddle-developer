@@ -1,0 +1,30 @@
+.information-detail {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  text-align: center;
+  .avatar {
+    width: 150px;
+    margin: auto;
+    img {
+      width: 150px;
+      border-radius: 50%;
+    }
+  }
+  .login {
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .bio {
+    font-size: 24px;
+  }
+  .company {
+    font-size: 16px;
+  }
+  .login,
+  .bio,
+  .company {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

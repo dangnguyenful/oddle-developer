@@ -1,0 +1,26 @@
+.default-search {
+  text-align: center;  
+  margin-top: 20%;
+  .icon-item {
+    img {
+      width: 120px;
+    }
+  }
+  .text-item {
+    width: 70%;
+    margin: auto;
+    span {
+      font-size: 14px;
+    }
+  }
+  .logo-item {
+    .github {
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      font-weight: bold;
+      font-size: 34px;
+    }
+    img {
+      width: 139px;
+    }
+  }
+}

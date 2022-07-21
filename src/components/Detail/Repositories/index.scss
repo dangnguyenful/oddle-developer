@@ -1,0 +1,20 @@
+.repositories {
+  .item {
+    min-height: 75px;
+    &:hover {
+      -webkit-box-shadow: 0px 3px 3px rgba(224, 217, 217, 0.8);
+      -moz-box-shadow: 0px 3px 3px rgba(224, 217, 217, 0.8);
+      box-shadow: 0px 3px 3px rgba(224, 217, 217, 0.8);
+    }
+    p {
+      margin: 0;
+    }
+    .repo-name {
+      margin-bottom: 10px;
+    }
+    .forks, 
+    .stargazers {
+      font-weight: normal;
+    }
+  }
+}

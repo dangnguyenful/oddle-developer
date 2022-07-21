@@ -1,0 +1,84 @@
+body {
+  background-color: #EEEEEE;
+}
+.hide {
+  display: none;
+}
+.loading {
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%;
+}
+
+.pagination-customize {
+  margin-top: 20px;
+  ul {
+    justify-content: center;
+  }
+  li {   
+    margin-bottom: 15px;
+    button.Mui-selected {
+      background-color: #1976D2;
+      color: white;
+    }
+    &:first-child,
+    &:last-child {
+      button {
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.root-container {
+  margin: auto;
+  min-width: 468px;
+  padding: 0;
+  .page-container {
+    min-height: calc(100vh - 60px);
+    position: relative;
+    padding-bottom: 60px;
+    .header {
+      padding: 32px 16px 16px 16px;
+      .page-title {
+        text-transform: capitalize;
+        margin-top: 11px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+      }
+      .right-content {
+        text-align: right;
+        label {
+          margin: 0;
+        }
+      }
+    }
+    .body-container {
+      padding: 16px;
+    }
+    .search-box {
+      padding: 10px 16px;
+    }
+  }
+
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #303841;  
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #303841;  
+  }
+}
